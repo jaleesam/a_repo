@@ -1,0 +1,35 @@
+ody, html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    margin: 5rem;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+    grid-gap: .25rem;
+    cursor: pointer;
+}
+
+.card{
+    transition: transform 1s;
+    
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+
+.card img{  
+    width: 100%;
+}
+
+.info{
+    padding: 1rem;
+}
